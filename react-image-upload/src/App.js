@@ -24,12 +24,6 @@ uploadHandler = () => {
       <div className="App">
          <input type="file" onChange = { this.fileChangedHandler } />
          <button onClick={this.uploadHandler}>Upload!</button>
-         <form onSubmit={this.handleSubmit}>
-          <input name="username" type="text" data-parse="uppercase" />
-          <input name="email" type="email" />
-          <input name="birthdate" type="text" data-parse="date" />
-          <button>Send data!</button>
-        </form>
       </div>
     );
   }
